@@ -5,7 +5,7 @@
 Specific examples of the things we mention are included in the presentation:
 [](https://docs.google.com/presentation/d/1R8bvibBJDdI4zNdiRbk8jVA_7WDLP0tO)
 
-[https://docs.google.com/presentation/d/1R8bvibBJDdI4zNdiRbk8jVA_7WDLP0tO/edit?usp=sharing&ouid=109636734010589073049&rtpof=true&sd=true](https://docs.google.com/presentation/d/1R8bvibBJDdI4zNdiRbk8jVA_7WDLP0tO/edit?usp=sharing&ouid=109636734010589073049&rtpof=true&sd=true)
+[Prompting: LLMs](https://docs.google.com/presentation/d/1R8bvibBJDdI4zNdiRbk8jVA_7WDLP0tO/edit?usp=sharing&ouid=109636734010589073049&rtpof=true&sd=true)
 
 ### Overview
 
@@ -78,12 +78,10 @@ Specific examples of the things we mention are included in the presentation:
 - **Self-prompting** allows the model to take initiative when you’re unsure how to proceed.
 - Always focus on **concise**, **clear**, and **specific prompts** for best results.
 
-[https://docs.google.com/presentation/d/1R8bvibBJDdI4zNdiRbk8jVA_7WDLP0tO/edit?usp=sharing&ouid=109636734010589073049&rtpof=true&sd=true](https://docs.google.com/presentation/d/1R8bvibBJDdI4zNdiRbk8jVA_7WDLP0tO/edit?usp=sharing&ouid=109636734010589073049&rtpof=true&sd=true)
-
 ## Useful Websites for Prompting
 
-https://www.geniept.com/
+[GeniePT](https://www.geniept.com/)
 
-https://lmarena.ai/
+[LMArena](https://lmarena.ai/)
 
 we will expand this list as we go!

@@ -1,6 +1,7 @@
 # Why Learn AI?
 
-[Why AI.pptx](Why_AI.pptx)
+[View Presentation](./Why%20Learn%20AI/Why_AI.pptx)
+
 
 # **Why It Is Important to Learn AI**
 
@@ -12,20 +13,20 @@ AI has evolved rapidly since its inception in the mid-20th century.
 
 - The term "Artificial Intelligence" was coined in 1956 at [a conference at Dartmouth](https://en.wikipedia.org/wiki/Dartmouth_workshop) College, marking the beginning of AI as a field of study. Early AI research focused on problem-solving and symbolic methods, but progress was slow due to limited computing power and data. The resurgence of AI began in the 2000s with the advent of machine learning, particularly deep learning, which enabled computers to learn from vast amounts of data.
     
-    ![image.png](RDFZ%20AI%20Elective%20HQ/Class%201%20A%20Gentle%20Intro%20to%20AI/Why%20Learn%20AI/image.png)
+    <img src="./Why Learn AI/image.png">
     
 - Even though AI has been a term since the mid-20th century, extensive research on the field really didn’t start until early 2000s. As humans achieved higher compute power, AI thrived.
 - Let’s put into perspective how fast AI has been developing in the past decade:
     - In 2016, Google DeepMind’s [AlphaGo](https://deepmind.google/technologies/alphago/) beat top professional human Go player Lee Sedol.
     
-    ![image.png](RDFZ%20AI%20Elective%20HQ/Class%201%20A%20Gentle%20Intro%20to%20AI/Why%20Learn%20AI/image%201.png)
+    <img src="./Why Learn AI/image 1.png">
     
     - In 2017, Google Brain researchers published the groundbreaking paper [Attention is All You Need](https://arxiv.org/abs/1706.03762): The fundamental basis of all sequence processing tasks today, used in all language models (GPT, Claude, Gemini, GLM, …) and image and video generation models.
     - In 2018, OpenAI launched the GPT (Generative Pre-trained Transformer) project. In June 2020, ChatGPT-3 was born (released to the public in [2022](https://openai.com/index/chatgpt/)), showing immense potential in language processing tasks.
     - Also in June 2020, [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) was published. This achieved SOTA in image generation at the time. The fundamental idea of diffusion behind all image generation models was born.
     - In April 2022, [Latent Diffusion Models](https://arxiv.org/abs/2112.10752) were born. This paper first used U-Nets for image generation tasks, and achieved textual control through cross-attention layers. This achieved efficient image generation. The structure was adopted in all image generation models that followed. Just 2 years later, [FLUX.1](https://blackforestlabs.ai/).
     
-    ![image.png](RDFZ%20AI%20Elective%20HQ/Class%201%20A%20Gentle%20Intro%20to%20AI/Why%20Learn%20AI/image%202.png)
+    <img src="./Why Learn AI/image 2.png">
     
 
 ## **AI Is the Future**
