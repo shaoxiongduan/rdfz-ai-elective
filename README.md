@@ -4,6 +4,15 @@
 
 Are you ready to dive into the exciting world of Artificial Intelligence? Buckle up, because we're about to embark on a thrilling journey through the realms of machine learning, neural networks, and cutting-edge AI technologies!
 
+# Table of Contents
+
+[Class 1: A Gentle Intro to AI](Class%201%20A%20Gentle%20Intro%20to%20AI/Class%201%20A%20Gentle%20Intro%20to%20AI.md)
+
+[Class 2: Neural Network Basics](Class%202%20Neural%20Network%20Basics/Class%202%20Neural%20Network%20Basics.md)
+
+More classes coming soon!
+
+
 ## 🎓 Course: Introduction to Artificial Intelligence
 
 ### 🌟 What's in store for you?
