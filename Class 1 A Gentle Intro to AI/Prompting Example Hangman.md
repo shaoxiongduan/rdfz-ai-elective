@@ -1,11 +1,11 @@
 # Prompting Example: Hangman
 
-> This page is an example of using ChatGPT-4o to code simple games such as Hangman. No previous experience with PyQt is needed.
-> 
+__This page is an example of using ChatGPT-4o to code simple games such as Hangman. No previous experience with PyQt is needed.__
+
 
 [ChatGPT conversation](https://chatgpt.com/share/86acb2de-5c0f-4aed-bd57-c5f89b7951d7)
 
-Before prompting, I had in mind all the functions and features I wanted to implement. Then, I prompted it systematically to implement each window of the game, function by function.
+__Before prompting, I had in mind all the functions and features I wanted to implement. Then, I prompted it systematically to implement each window of the game, function by function.__
 
 # You:
 

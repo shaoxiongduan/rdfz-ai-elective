@@ -2,8 +2,6 @@
 
 [Why Learn AI?](Why%20Learn%20AI.md)
 
-[**Class Introduction**](Class%20Introduction.md)
-
 [Environment Setup](Environment%20Setup.md)
 
 [LLM Prompting](LLM%20Prompting.md)

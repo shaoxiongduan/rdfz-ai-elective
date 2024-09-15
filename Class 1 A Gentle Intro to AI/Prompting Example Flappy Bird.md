@@ -2,14 +2,19 @@
 
 I started with a simple prompt and got this:
 
+<video src="./Prompting Example Flappy Bird/flappy_before.mov" height="512">
+</video>
+
+
 But the score counter is not working!
 
-[flappy_before.mov](flappy_before.mov)
 
 Then I prompt the model to fix this mistake:
 
-![Screenshot 2024-09-12 at 10.23.56.png](Screenshot_2024-09-12_at_10.23.56.png)
+<img src="./Prompting Example Flappy Bird/code_fix.png">
 
 Now it works!
 
-[flappy_after.mov](flappy_after.mov)
+<video src="./Prompting Example Flappy Bird/flappy_after.mov" height=512>
+</video>
+

@@ -6,10 +6,10 @@ Welcome to the exciting world of AI! 🤖 This tutorial will guide you through s
 
 ## Table of Contents
 
-1. [Installing Python 🐍](Environment%20Setup.md)
-2. [Creating a Virtual Environment 🏠](Environment%20Setup.md)
-3. [Installing PyTorch 🔥](Environment%20Setup.md)
-4. [Downloading Cursor](Environment%20Setup.md)
+1. [Installing Python 🐍](#installing-python-)
+2. [Creating a Virtual Environment 🏠](#creating-a-virtual-environment-)
+3. [Installing PyTorch 🔥](#installing-pytorch-)
+4. [Downloading Cursor](#downloading-cursor)
 
 ## Installing Python 🐍
 
