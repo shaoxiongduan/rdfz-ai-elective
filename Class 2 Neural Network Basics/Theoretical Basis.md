@@ -37,7 +37,7 @@ $$
 A function $f(x)$ is continuous (everywhere) if:
 
 $$
-(\forall c\in \R)\Big(\lim_{x\to c} f(x) = f(c)\Big)
+(\forall c\in \mathbb{R})\Big(\lim_{x\to c} f(x) = f(c)\Big)
 $$
 
 ### Derivatives
@@ -50,7 +50,7 @@ $$
 f'(c) = \lim_{h \to 0} \frac{f(c + h) - f(c)}{h}
 $$
 
-Also written as $\dot f(c)$, $\frac{d}{dx}f(x)|_{x=c}$ or $\frac{df}{dx}|_{x=c}$
+Also written as $\dot f(c)$, $\frac{d}{dx}f(x)\vert_{x=c}$ or $\frac{df}{dx}\vert_{x=c}$
 
 A function is called "differentiable" if its derivative exists at every point.
 
@@ -90,7 +90,7 @@ $$
 Let's say we have a neural network $f_\theta$, where $\theta$ is a vector representing all of the parameters in the network, including the weights and the biases. Our objective is to find the optimal parameters $\theta^{\star}$ such that the loss function is minimized. Let's use the mean squared error loss function as an example:
 
 $$
-\theta^{\star} = \argmin_{\theta} \frac{1}{n} \lvert y-f_\theta(X) \rvert^2
+\theta^{\star} = \arg\min_{\theta} \frac{1}{n} \lvert y-f_\theta(X) \rvert^2
 $$
 
 
