@@ -1,5 +1,9 @@
 # How a Neural Network Works
 
+## Slides
+
+[Training a Neural Network](./Training%20NNs.pptx)
+
 ## Visualizations
 
 [Neurons, Weights, and Biases](/src/1.%20Basic%20Neural%20Networks/nnVisualization.ipynb)
@@ -10,4 +14,6 @@
 
 ## Other Materials
 
-If like me, you like to dig into the theoretical basis of everything, read [this report](./Theoretical%20Basis.md) about neural networks.gradient descent.
+If like me, you like to dig into the theoretical basis of everything, read [this report](./Theoretical%20Basis.md) about gradient descent.
+
+You can also find useful resources [here](/Useful%20Links.md).
