@@ -2,9 +2,9 @@
 
 ## Slides
 
-[Neurons and How They Work Together](./Neural%20Network%20Basics.pptx)
+[Neurons and How They Work Together](./Neural%20Network%20Basics.pdf)
 
-[Training a Neural Network](./Training%20NNs.pptx)
+[Training a Neural Network](./Training%20NNs.pdf)
 
 ## Visualizations
 
