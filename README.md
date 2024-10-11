@@ -10,6 +10,8 @@ Are you ready to dive into the exciting world of Artificial Intelligence? Buckle
 
 [Class 2: Neural Network Basics](Class%202%20Neural%20Network%20Basics/Class%202%20Neural%20Network%20Basics.md)
 
+[Class 3: CNNs](Class%203%20CNNs/Class%203%20CNNs.md)
+
 More classes coming soon!
 
 
