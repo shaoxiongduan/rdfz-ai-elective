@@ -12,6 +12,8 @@ Are you ready to dive into the exciting world of Artificial Intelligence? Buckle
 
 [Class 3: CNNs](Class%203%20CNNs/Class%203%20CNNs.md)
 
+[Class 4: Gomoku AI with CNN](Class%204%20Gomoku%20AI%20with%20CNN/Class%204%20Gomoku%20AI%20with%20CNN.md)
+
 More classes coming soon!
 
 
