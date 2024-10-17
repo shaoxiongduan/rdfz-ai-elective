@@ -1,8 +1,3 @@
----
-layout: page
-title: "Class 1: A Gentle Intro to AI"
----
-
 # Class 1: A Gentle Intro to AI
 
 [Why Learn AI?](Why%20Learn%20AI.md)
