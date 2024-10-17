@@ -8,11 +8,11 @@ Are you ready to dive into the exciting world of Artificial Intelligence? Buckle
 
 [Class 1: A Gentle Intro to AI](Class_1_A_Gentle_Intro_to_AI/Class_1_A_Gentle_Intro_to_AI.md)
 
-[Class 2: Neural Network Basics](Class%202%20Neural%20Network%20Basics/Class%202%20Neural%20Network%20Basics.md)
+[Class 2: Neural Network Basics](Class_2_Neural_Network_Basics/Class_2_Neural_Network_Basics.md)
  
-[Class 3: CNNs](Class%203%20CNNs/Class%203%20CNNs.md)
+[Class 3: CNNs](Class_3_CNNs/Class_3_CNNs.md)
 
-[Class 4: Gomoku AI with CNN](Class%204%20Gomoku%20AI%20with%20CNN/Class%204%20Gomoku%20AI%20with%20CNN.md)
+[Class 4: Gomoku AI with CNN](Class_4_Gomoku_AI_with_CNN/Class_4_Gomoku_AI_with_CNN.md)
 
 More classes coming soon!
 

@@ -1,6 +1,6 @@
 # Class 1: A Gentle Intro to AI
 
-[Why Learn AI?](WhyLearnAI.md)
+[Why Learn AI?](Why_Learn_AI.md)
 
 [Environment Setup](Environment_Setup.md)
 
