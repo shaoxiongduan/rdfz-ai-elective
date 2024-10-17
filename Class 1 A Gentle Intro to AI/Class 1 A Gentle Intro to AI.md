@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Class 1: A Gentle Intro to AI"
-permalink: /class1/
+permalink: /Class 1 A Gentle Intro to AI/Class 1 A Gentle Intro to AI.md
 ---
 
 # Class 1: A Gentle Intro to AI
