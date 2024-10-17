@@ -1,6 +1,6 @@
 # Why Learn AI?
 
-[View Presentation](./Why_Learn_AI/Why_AI.pptx)
+[View Presentation](./Why%20Learn%20AI/Why_AI.pptx)
 
 
 # **Why It Is Important to Learn AI**
