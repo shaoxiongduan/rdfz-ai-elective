@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Class 2: Neural Network Basics"
+permalink: /class2/
+---
 # Class 2: Neural Network Basics
 
 [How a Neural Network Works](How%20a%20Neural%20Network%20Works.md)
