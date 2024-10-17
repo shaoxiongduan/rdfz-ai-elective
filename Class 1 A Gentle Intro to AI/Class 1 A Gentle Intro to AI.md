@@ -1,13 +1,13 @@
 # Class 1: A Gentle Intro to AI
 
-[Why Learn AI?](Why%20Learn%20AI.md)
+[Why Learn AI?](WhyLearnAI.md)
 
-[Environment Setup](Environment%20Setup.md)
+[Environment Setup](EnvironmentSetup.md)
 
-[LLM Prompting](LLM%20Prompting.md)
+[LLM Prompting](LLMPrompting.md)
 
-[Prompting Example: Hangman](Prompting%20Example%20Hangman.md)
+[Prompting Example: Hangman](PromptingExampleHangman.md)
 
-[Prompting Example: Snake](Prompting%20Example%20Snake.md)
+[Prompting Example: Snake](PromptingExampleSnake.md)
 
-[Prompting Example: Flappy Bird](Prompting%20Example%20Flappy%20Bird.md)
+[Prompting Example: Flappy Bird](PromptingExampleFlappyBird.md)
