@@ -14,6 +14,8 @@ Are you ready to dive into the exciting world of Artificial Intelligence? Buckle
 
 [Class 4: Gomoku AI with CNN](Class_4_Gomoku_AI_with_CNN/Class_4_Gomoku_AI_with_CNN.md)
 
+[Class 5: RNNs](Class_5_RNNs/Class_5_RNNs.md)
+
 More classes coming soon!
 
 
