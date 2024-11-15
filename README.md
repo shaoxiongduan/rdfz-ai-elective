@@ -16,6 +16,8 @@ Are you ready to dive into the exciting world of Artificial Intelligence? Buckle
 
 [Class 5: RNNs](Class_5_RNNs/Class_5_RNNs.md)
 
+[Class 6: Word Embeddings and Transformers](Class_6_Word_Embedding_And_Transformers/Class_6_Word_Embedding_And_Transformers.md)
+
 More classes coming soon!
 
 
