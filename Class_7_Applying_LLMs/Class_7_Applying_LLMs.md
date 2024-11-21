@@ -76,7 +76,7 @@ For calling the API, we pass the prompts in a object like this:
         "content": "Tell me a story about the Great Wall of China."
     },
     {
-        "role": "assistant",
+        "role": "assistant",v
         "content": "Once upon a time, there was a wall that was built a long, long time ago. It was built to protect the people from the bad monsters that lived outside the wall."
     },
     {
@@ -139,6 +139,8 @@ Note that there is a API key and API base that we need to set first.
 
 **The API key** is used to authenticate the request, to know that it is really coming from a paid user. (Do not send your key to anyone, it's just like the key to your house!)
 
+### Continuous Response
+
 If we want a continuous conversation, we can simply add the previous user prompt and assistant response as the new user prompt.
 
 ```python
@@ -177,12 +179,65 @@ while True:
     if user_input.lower() == "exit":
         break
 
-    messages.append({"role": "user", "content": user_input})
     messages.append({"role": "assistant", "content": assistant_message})
+    messages.append({"role": "user", "content": user_input})
 
 ```
 
 Now the code adds the user prompt and the assistant response to the `messages` list every time we have a new interaction with the model, and the loop continues until the user wants to exit.
+
+### Streaming Example
+
+To use a streaming response, we can use the `stream=True` parameter in the `create` function of the chat completions api. This will return a generator that yields chunks of the response as they are received.
+
+```python
+from openai import OpenAI
+
+base_url = "https://api.openai.com/v1"
+api_key = "Your-API-Key"
+
+client = OpenAI(api_key=api_key, base_url=base_url)
+
+messages = [
+    {
+        "role": "system",
+        "content": "You are a master cheerleader. You are given a user's mood and you will tell them a compliment to cheer them up."
+    },
+    {
+        "role": "user",
+        "content": "I'm feeling a bit down today."
+    }
+]
+
+while True:
+    stream = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=messages,
+        temperature=0.5,
+        stream=True
+    )
+
+    print(f"Assistant: ", end="")
+    assistant_message = ""
+    for chunk in stream:
+        if chunk.choices[0].delta.content is not None:
+            assistant_message += chunk.choices[0].delta.content
+            print(chunk.choices[0].delta.content, end="")
+    print()
+
+    user_input = input("User: ")
+    if user_input.lower() == "exit":
+        break
+
+    messages.append({"role": "assistant", "content": assistant_message})
+    messages.append({"role": "user", "content": user_input})
+
+```
+In the above code, the program will output portions of the message in a continuous stream.
+
+Result:
+
+<video controls src='images/Streaming Example.mov'></video>
 
 # LLM API Example 2: Simple WhatBeatsRock Implementation
 
