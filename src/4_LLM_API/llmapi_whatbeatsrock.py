@@ -1,4 +1,5 @@
 import openai
+import streamlit as st
 
 openai.api_base = "https://pro.aiskt.com/v1"
 openai.api_key = "replace with your own key"
@@ -30,12 +31,26 @@ system_prompt = (
     "</OUTPUT>\n\n"
 )
 
-def play_game():
-    previous_item = "Rock"
-    while True:
-        print(f"Try to guess something that beats {previous_item}!")
-        user_choice = input("Enter your choice: ")
-        user_input = f"User's choice: \"{user_choice}\"\nPrevious item: \"{previous_item}\"\n"
+st.title("What Beats Rock Game")
+st.write("Try to enter items that beat the previous item!")
+
+if 'previous_item' not in st.session_state:
+    st.session_state.previous_item = "Rock"
+    st.session_state.game_over = False
+    st.session_state.reason = None
+
+# Display current item in a prominent info box
+st.info(f"🎯 Current item to beat: **{st.session_state.previous_item}**")
+
+# Display the previous reason if it exists
+if st.session_state.reason:
+    st.success(f"💡 Previous winning reason: {st.session_state.reason}")
+
+if not st.session_state.game_over:
+    user_choice = st.text_input("Enter your choice:", key="user_input")
+    
+    if st.button("Submit"):
+        user_input = f"User's choice: \"{user_choice}\"\nPrevious item: \"{st.session_state.previous_item}\"\n"
         
         messages = [
             {
@@ -55,12 +70,26 @@ def play_game():
         )
 
         assistant_message = response.choices[0].message['content']
-        print(f"Assistant: {assistant_message}")
+        
+        # Extract the reason from the response
+        reason_start = assistant_message.find("Response: \"") + 10
+        reason_end = assistant_message.find("\n", reason_start)
+        reason = assistant_message[reason_start:reason_end].strip('"')
 
         if "<OUTPUT>\nNO\n</OUTPUT>" in assistant_message:
-            print("Game Over! Your choice did not beat the previous item.")
-            break
+            st.error("❌ Game Over! Your choice did not beat the previous item.")
+            st.session_state.game_over = True
+            st.session_state.reason = None
         else:
-            previous_item = user_choice
+            st.session_state.previous_item = user_choice
+            st.session_state.reason = reason
+            st.success("✅ Good job! Enter another item!")
+            # Force a rerun to update the current item display immediately
+            st.rerun()
 
-play_game()
+if st.session_state.game_over:
+    if st.button("Play Again"):
+        st.session_state.previous_item = "Rock"
+        st.session_state.game_over = False
+        st.session_state.reason = None
+        st.rerun()

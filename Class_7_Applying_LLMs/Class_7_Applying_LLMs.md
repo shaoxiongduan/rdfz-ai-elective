@@ -258,3 +258,30 @@ This is controlled by the **temperature** parameter.
 
 Temperature is a parameter that controls the randomness of the model's output. A temperature of 0 is the most deterministic, meaning that the model will always output the same response for the same input. A temperature of 1 is the most random, meaning that the model will output a different response each time.
 
+
+
+# Making it an Interface for the Game
+
+Now that we have a working model, we can make it an interface for the game.
+
+For that, we can use Streamlit, a very simple and easy to use library for creating interfaces with Python.
+
+```bash
+installation: pip/pip3 install streamlit
+
+running the program: streamlit run xxx.py
+```
+
+We prompt the model to add in an interface:
+
+![alt text](images/image-4.png)
+
+![alt text](images/image-5.png)
+
+![alt text](images/image-6.png)
+
+![alt text](images/image-7.png)
+
+# Some Fun Things Made with LLMs
+
+[Links](Links.md)

@@ -18,6 +18,8 @@ Are you ready to dive into the exciting world of Artificial Intelligence? Buckle
 
 [Class 6: Word Embeddings and Transformers](Class_6_Word_Embedding_And_Transformers/Class_6_Word_Embedding_And_Transformers.md)
 
+[Class 7: Applying LLMs](Class_7_Applying_LLMs/Class_7_Applying_LLMs.md)
+
 More classes coming soon!
 
 
