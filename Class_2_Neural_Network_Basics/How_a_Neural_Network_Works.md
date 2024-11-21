@@ -9,7 +9,7 @@
 ## Visualizations
 
 ### Notebooks
-[Neurons, Weights, and Biases (Notebook)](/src/1_Basic_Neural_Networks/nnVisualization.ipynb)
+[Neurons, Weights, and Biases](/src/1_Basic_Neural_Networks/nnVisualization.ipynb)
 
 [Gradient Descent](/src/1_Basic_Neural_Networks/gradient_descent_visualization.ipynb)
 
