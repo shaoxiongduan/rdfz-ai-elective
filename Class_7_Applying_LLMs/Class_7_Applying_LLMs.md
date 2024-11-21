@@ -105,12 +105,14 @@ We first design our system prompt:
 After writing this, we will call the API with the following code:
 
 ```python
-import openai
+from openai import OpenAI
 
-openai.api_base = "https://api.openai.com/v1"
-openai.api_key = "your-api-key"
+base_url = "https://api.openai.com/v1"
+api_key = "Your-API-Key"
 
-response = openai.ChatCompletion.create(
+client = OpenAI(base_url=base_url, api_key=api_key)
+
+response = client.chat.completions.create(
     model="gpt-3.5-turbo",
     messages=[
         {
@@ -125,7 +127,7 @@ response = openai.ChatCompletion.create(
     temperature=0.5
 )
 
-print(response.choices[0].message['content'])
+print(response.choices[0].message.content)
 
 ```
 
@@ -140,10 +142,15 @@ Note that there is a API key and API base that we need to set first.
 If we want a continuous conversation, we can simply add the previous user prompt and assistant response as the new user prompt.
 
 ```python
-import openai
+from openai import OpenAI
 
-openai.api_base = "https://api.openai.com/v1"
-openai.api_key = "your-api-key"
+base_url = "https://api.openai.com/v1"
+api_key = "Your-API-Key"
+
+client = OpenAI(api_key=api_key, base_url=base_url)
+
+base_url = "https://api.openai.com/v1"
+api_key = "your-api-key"
 
 messages = [
     {
@@ -157,13 +164,13 @@ messages = [
 ]
 
 while True:
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages,
         temperature=0.5
     )
 
-    assistant_message = response.choices[0].message['content']
+    assistant_message = response.choices[0].message.content
     print(f"Assistant: {assistant_message}")
 
     user_input = input("User: ")

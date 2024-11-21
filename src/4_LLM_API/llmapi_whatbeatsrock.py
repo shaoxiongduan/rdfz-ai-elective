@@ -1,8 +1,10 @@
-import openai
+from openai import OpenAI
 import streamlit as st
 
-openai.api_base = "https://pro.aiskt.com/v1"
-openai.api_key = "replace with your own key"
+base_url = "https://pro.aiskt.com/v1"
+api_key = "Your-API-Key"
+
+client = OpenAI(base_url=base_url, api_key=api_key)
 
 system_prompt = (
     "You are a referee in a game of WhatBeatsRock. You are given a list of items and a user's choice. "
@@ -63,13 +65,13 @@ if not st.session_state.game_over:
             }
         ]
 
-        response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+        response = client.chat.completions.create(
+            model="gpt-4o",
             messages=messages,
             temperature=0.5 # We can turn this to 0 to make the model more deterministic
         )
 
-        assistant_message = response.choices[0].message['content']
+        assistant_message = response.choices[0].message.content
         
         # Extract the reason from the response
         reason_start = assistant_message.find("Response: \"") + 10
