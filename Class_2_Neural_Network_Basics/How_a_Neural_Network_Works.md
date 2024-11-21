@@ -8,7 +8,7 @@
 
 ## Visualizations
 
-### Notebooks
+### Notebooks (These links do not work when viewed in Github Pages!)
 [Neurons, Weights, and Biases](/src/1_Basic_Neural_Networks/nnVisualization.ipynb)
 
 [Gradient Descent](/src/1_Basic_Neural_Networks/gradient_descent_visualization.ipynb)
