@@ -8,11 +8,18 @@
 
 ## Visualizations
 
-[Neurons, Weights, and Biases](/src/1_Basic_Neural_Networks/nnVisualization.ipynb)
+### Notebooks
+[Neurons, Weights, and Biases (Notebook)](/src/1_Basic_Neural_Networks/nnVisualization.ipynb)
 
 [Gradient Descent](/src/1_Basic_Neural_Networks/gradient_descent_visualization.ipynb)
 
 [Training, Overfitting, and Validation](/src/1_Basic_Neural_Networks/trainingVisualization.ipynb)
+
+### Gradio 
+
+[Neurons, Weights, and Biases (Gradio)](https://noctuashap-rdfz-ai-elective-nnvisualizer.hf.space)
+
+[Training, Overfitting, and Validation (Gradio)](https://noctuashap-rdfz-ai-elective-trainingvisualizer.hf.space)
 
 ## Other Materials
 
