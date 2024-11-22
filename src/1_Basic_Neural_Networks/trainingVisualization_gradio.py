@@ -136,7 +136,7 @@ def update_visualization(learning_rate, hidden_dims, test_split, data_type):
 
 def create_animation(learning_rate, hidden_dims, test_split, data_type, epochs_per_frame, frame_interval):
     global x, y, x_train, x_val, y_train, y_val
-    
+    print(f"Creating animation with learning rate: {learning_rate}, hidden dimensions: {hidden_dims}, test split: {test_split}, data type: {data_type}, epochs per frame: {epochs_per_frame}, frame interval: {frame_interval}")
     # Generate new data
     x, y = generate_data(data_type)
     x_train, x_val, y_train, y_val = train_test_split(x, y, test_size=test_split, random_state=0)
@@ -221,14 +221,14 @@ with gr.Blocks() as iface:
         frame_interval_slider = gr.Slider(minimum=100, maximum=2000, step=100, value=500, label="Frame Interval (ms)")
     
     animation_output = gr.Image()
+    submit_btn = gr.Button("Train Network")
     
-    # Update whenever any input changes
-    for input_component in [lr_number, hidden_dims_text, test_split_slider, data_type_dropdown, epochs_per_frame_slider, frame_interval_slider]:
-        input_component.change(
-            fn=create_animation,
-            inputs=[lr_number, hidden_dims_text, test_split_slider, data_type_dropdown, epochs_per_frame_slider, frame_interval_slider],
-            outputs=animation_output
-        )
+    # Update only when submit button is clicked
+    submit_btn.click(
+        fn=create_animation,
+        inputs=[lr_number, hidden_dims_text, test_split_slider, data_type_dropdown, epochs_per_frame_slider, frame_interval_slider],
+        outputs=animation_output
+    )
 
 if __name__ == "__main__":
     iface.launch()
