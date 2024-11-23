@@ -24,4 +24,14 @@ The repo is still under construction, so if you find any issues, please let me k
 
 More classes coming soon!
 
+# Visualizations
+
+These are some of the intuitive visualizations we created for explaining various concepts:
+
+[How Does A Neural Network Work (Explaination of Weights, Biases, and Activation Functions)](https://noctuashap-rdfz-ai-elective-nnvisualizer.hf.space)
+
+[NN Training Visualizer](https://noctuashap-rdfz-ai-elective-trainingvisualizer.hf.space)
+
+[Convolution Visualizer](https://silicon23-rdfz-ai-elective-cnnvisualizer.hf.space)
+
 AI is changing the world, and we believe everyone should have a chance to understand and use it.
