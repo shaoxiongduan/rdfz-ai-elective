@@ -1,6 +1,6 @@
 # Course Introduction
 
-This is the repo for the AI elective course at RDFZ, taught by Shao (Me) and Michael (My good friend). This course aims to provide a fun introduction to understanding and using AI, combining theoretical concepts with projects. This is by no means a formal and comprehensive course about AI, and it's best read alongside other more formal courses. The goal here is to make things simple, intuitive, and fun.
+This is the repo for the AI elective course at RDFZ, taught by Shao (Me) and Michael (My good friend). This course aims to provide a fun introduction to understanding and using AI, combining theoretical concepts with projects. This is by no means a formal and comprehensive course about AI, and it's best used alongside other more formal courses. The goal here is to make things simple, intuitive, and fun.
 
 In this course, we want you to have two takeaways: The first one is straightforward: understanding how AI models work. Apart from that, we also want you to learn how to properly use AI tools in applications such as coding. Learning AI and learning to use AI is super useful!
 
